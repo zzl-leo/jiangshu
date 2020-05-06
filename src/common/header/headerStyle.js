@@ -57,8 +57,24 @@ export const NavSearch = styled.input.attrs({
     padding: 0 40px 0 20px;
     font-size: 14px;
     box-sizing: border-box;
+    color: #666;
     &::placeholder {
         color: #999;
+    }
+    &.focused {
+        width: 280px;
+    }
+    &.slide-enter {
+        transition: all 0.3s ease-out;
+    }
+    &.slide-enter-active {
+        width: 280px;
+    }
+    &.slide-exit {
+        transition: all 0.3s ease-out;
+    }
+    &.slide-exit-active {
+        width: 160px;
     }
 `
 
@@ -84,5 +100,21 @@ export const Button = styled.div`
     &.writting {
         color: #fff;
         background: #ec6149;
+    }
+`
+
+export const SearchWrapper = styled.div`
+    float: left;
+    position: relative;
+    .iconfont {
+        position: absolute;
+        right: 7px;
+        top: 14px;
+        padding: 6px;
+        border-radius: 14px;
+        &.focused {
+            background: #777;
+            color: #fff;
+        }
     }
 `
