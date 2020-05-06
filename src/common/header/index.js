@@ -12,6 +12,9 @@ import {
   Addition,
   Button,
   SearchWrapper,
+  SerachInfo,
+  SearchInfoTitle,
+  SearchInfoSwitch
 } from "./headerStyle";
 //最后在需要使用的地方使用
 const Header = (props) => {
@@ -37,6 +40,14 @@ const Header = (props) => {
           <i className={props.focused ? "focused iconfont" : "iconfont"}>
             &#xe662;
           </i>
+          <SerachInfo>
+            <SearchInfoTitle>
+              热门搜索
+              <SearchInfoSwitch>
+                换一批
+              </SearchInfoSwitch>
+            </SearchInfoTitle>
+          </SerachInfo>
         </SearchWrapper>
       </Nav>
       <Addition>
@@ -53,7 +64,11 @@ const mapStateToProps = (state) => {
   return {
     // focused: state.header.focused,
     // 使用immutable库后引用immutable对象的数据
-    focused: state.header.get('focused')
+    // focused: state.header.get('focused')
+
+    // 使用redux-immutable后state变成了immutable对象
+    // focused: state.get('header').get('focused')
+    focused: state.getIn(['header','focused'])
   };
 };
 
