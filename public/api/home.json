@@ -1,0 +1,50 @@
+{
+	"success": true,
+	"data": {
+		"topicList": [{
+			"id": 1,
+			"title": "社会热点",
+			"imgUrl": "//upload.jianshu.io/collections/images/261938/man-hands-reading-boy-large.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64"
+		}, {
+			"id": 2,
+			"title": "手手绘",
+			"imgUrl": "//upload.jianshu.io/collections/images/21/20120316041115481.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64"
+		}],
+		"articleList": [{
+			"id": 1,
+			"title": "我睡上了那个三十几岁女人的床",
+			"desc": "前阵子东冉村拆迁，被迫搬家，打听到车道沟地铁站附近有两排平房，去看了看，环境奇差，却也可以将就，一来急于搬家，二来比较省钱，三呢，离人民出版社那...",
+			"imgUrl": "https://upload-images.jianshu.io/upload_images/3356997-6b687f4a1850c966.png?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+		}, {
+			"id": 2,
+			"title": "为什么男人肯为“玩”他的女人花钱，却对爱他的女人抠门？",
+			"desc": "说句话直白点的大实话吧，男人的心在哪里，钱就在哪里。 为什么女人会觉得男人肯为玩他的女人花钱，却对爱他的女人抠门，这里有几点值得思考的问题。 一...",
+			"imgUrl": "https://upload-images.jianshu.io/upload_images/13724395-2a5476701164036a.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+		}, {
+			"id": 3,
+			"title": "你后悔娶了现在的老婆吗？我们采访了100个已婚男人...",
+			"desc": "“男人会后悔娶了现在的老婆吗？” 带着这个疑惑，中国台湾记录片导演沈可尚放弃了4年拍摄的500多小时的素材，重新开始，跟拍了八对夫妻，制成了《幸...",
+			"imgUrl": "https://upload-images.jianshu.io/upload_images/16623634-55ed3b964aff138e?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+		}, {
+			"id": 4,
+			"title": "照片拍完之后，他们就死了……",
+			"desc": "照片拍摄的瞬间，一切就定格成为历史。不过下面这组照片中，拍摄者（或被拍摄者）万万不会想到，他们的人生会这样快地走向终结： 挑战者号航天飞机的成员...",
+			"imgUrl": "https://upload-images.jianshu.io/upload_images/18529253-1d826a2bca7ac0bd?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/240"
+		}],
+		"recommendList": [{
+			"id": 1,
+			"imgUrl": "//cdn2.jianshu.io/assets/web/banner-s-club-aa8bdf19f8cf729a759da42e4a96f366.png"
+		}, {
+			"id": 2,
+			"imgUrl": "http://cdn2.jianshu.io/assets/web/banner-s-5-4ba25cf5041931a0ed2062828b4064cb.png"
+		},{
+			"id": 3,
+			"imgUrl": "//cdn2.jianshu.io/assets/web/banner-s-7-1a0222c91694a1f38e610be4bf9669be.png"
+		},
+		{
+			"id": 4,
+			"imgUrl": "//cdn2.jianshu.io/assets/web/banner-s-6-c4d6335bfd688f2ca1115b42b04c28a7.png"
+		}
+	]
+	}
+}

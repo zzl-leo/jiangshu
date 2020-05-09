@@ -84,7 +84,7 @@ export const SerachInfo = styled.div`
     top: 56px;
     width: 240px;
     padding: 0 20px;
-    height: 100px;
+    background: #fff;
     box-shadow: 0 0 8px rgba(0,0,0,0.2);
 `
 
@@ -99,6 +99,35 @@ export const SearchInfoTitle = styled.div`
 export const SearchInfoSwitch = styled.span`
     font-size: 13px;
     float: right;
+    cursor: pointer;
+    display: inline-block;
+    width: 65px;
+    .iconfont {
+        display: block;
+        float: left;
+        margin-right: 4px;
+        font-size: 12px;
+        transition: all 0.4s ease-in;
+        tansform-origin: center center;
+    }
+`
+
+export const SearchInfoList = styled.div`
+    overflow: hidden;
+`
+
+export const SearchInfoItem = styled.a`
+    display: block;
+    float: left;
+    margin-right: 10px;
+    font-size: 12px;
+    border: solid 1px #ddd;
+    cursor: pointer;
+    padding: 0 5px;
+    line-height: 20px;
+    color: #787878;
+    border-radius: 3px;
+    margin-bottom: 10px;
 `
 
 export const Addition = styled.div`
@@ -129,7 +158,7 @@ export const Button = styled.div`
 export const SearchWrapper = styled.div`
     float: left;
     position: relative;
-    .iconfont {
+    .zoom {
         position: absolute;
         right: 7px;
         top: 14px;
